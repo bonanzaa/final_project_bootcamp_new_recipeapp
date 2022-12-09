@@ -1,4 +1,4 @@
-package com.team3.recipesapp;
+package com.javatechie.azure;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -8,17 +8,18 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
+
 @Entity
-@Table(name="users")
+@Table
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-
-public class User {
+public class Employee {
     @Id
     @GeneratedValue
-    private String id;
-    private String username;
-    private String email;
-    private String password;
+    private int id;
+    private String name;
+    private String dept;
+    private long salary;
 }

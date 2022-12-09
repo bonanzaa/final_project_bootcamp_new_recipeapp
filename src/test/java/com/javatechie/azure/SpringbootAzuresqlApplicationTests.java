@@ -1,13 +1,13 @@
-package com.team3.recipesapp;
+package com.javatechie.azure;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RecipesAppApplicationTests {
+class SpringbootAzuresqlApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }
